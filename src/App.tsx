@@ -37,7 +37,7 @@ function App() {
   const testimonials = [
     {
       quote:
-        'Anna hat uns mit so viel Ruhe und Herzlichkeit begleitet – wir haben uns in jeder Situation verstanden gefühlt.',
+        'Marina hat uns mit so viel Ruhe und Herzlichkeit begleitet – wir haben uns in jeder Situation verstanden gefühlt.',
       name: 'Laura & Jonas',
       detail: 'Erstlingseltern, Betreuung 2023',
     },
@@ -45,7 +45,7 @@ function App() {
       quote:
         'Besonders im Wochenbett war es Gold wert, jemand Erfahrenes an der Seite zu haben. Danke für die klaren Worte!',
       name: 'Miriam',
-      detail: 'Zweifach-Mama, Hausgeburt in Berlin',
+      detail: 'Zweifach-Mama, Hausgeburt in Nürnberg',
     },
   ]
 
@@ -72,12 +72,12 @@ function App() {
     },
     {
       label: 'E-Mail',
-      value: 'hallo@hebamme-anna.de',
-      href: 'mailto:hallo@hebamme-anna.de',
+      value: 'hallo@hebamme-marina.de',
+      href: 'mailto:hallo@hebamme-marina.de',
     },
     {
       label: 'Praxis',
-      value: 'Prenzlauer Allee 42 · 10405 Berlin',
+      value: 'Wolframs-Eschenbacher Straße 39 · Nürnberg',
     },
   ]
 
@@ -88,8 +88,8 @@ function App() {
           <div className="brand">
             <span className="brand-mark" aria-hidden="true" />
             <div>
-              <p className="brand-name">Hebamme Anna Müller</p>
-              <p className="brand-sub">Berlin · Prenzlauer Berg</p>
+              <p className="brand-name">Hebamme Marina Rimmer</p>
+              <p className="brand-sub">Wolframs-Eschenbacher Straße 39 · Nürnberg</p>
             </div>
           </div>
           <a className="nav-contact" href="#kontakt">
@@ -99,7 +99,7 @@ function App() {
 
         <div className="hero-inner">
           <div className="hero-text">
-            <p className="eyebrow">Ganzheitliche Hebammenbetreuung in Berlin</p>
+            <p className="eyebrow">Ganzheitliche Hebammenbetreuung in Nürnberg</p>
             <h1>Begleitung mit Herz & Fachwissen für deine Schwangerschaft</h1>
             <p className="hero-description">
               Ich schenke dir Raum, Sicherheit und Klarheit – von der ersten
@@ -240,7 +240,7 @@ function App() {
 
       <footer className="footer">
         <p>
-          © {new Date().getFullYear()} Hebamme Anna Müller · Impressum ·
+          © {new Date().getFullYear()} Hebamme Marina Rimmer · Impressum ·
           Datenschutz
         </p>
       </footer>
